@@ -8,7 +8,7 @@
 
 > **ConnectOAuthScope** = `"read_write"` \| `"read_only"`
 
-Defined in: [core/services/oauth.service.ts:8](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/oauth.service.ts#L8)
+Defined in: [core/services/oauth.service.ts:8](https://github.com/Bates-Solutions/stripe/blob/f16fab00a2fcf006c7a6c7fcfcb9abd308a81c41/src/core/services/oauth.service.ts#L8)
 
 Connect OAuth scope. `read_write` lets your platform act on the connected
 account; `read_only` only lets it read.

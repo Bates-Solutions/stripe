@@ -8,7 +8,7 @@
 
 > **createStripeClient**(`config`): [`StripeClient`](../classes/StripeClient.md)
 
-Defined in: [core/client.ts:222](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/client.ts#L222)
+Defined in: [core/client.ts:222](https://github.com/Bates-Solutions/stripe/blob/f16fab00a2fcf006c7a6c7fcfcb9abd308a81c41/src/core/client.ts#L222)
 
 Create a new Stripe client instance.
 

@@ -8,6 +8,6 @@
 
 > **WebhookEventType** = `Stripe.Event`\[`"type"`\]
 
-Defined in: [server/types.ts:14](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/server/types.ts#L14)
+Defined in: [server/types.ts:14](https://github.com/Bates-Solutions/stripe/blob/f16fab00a2fcf006c7a6c7fcfcb9abd308a81c41/src/server/types.ts#L14)
 
 All Stripe webhook event type strings (e.g. `payment_intent.succeeded`).
