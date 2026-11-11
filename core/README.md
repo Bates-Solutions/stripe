@@ -10,8 +10,8 @@
 
 The package's main entrypoint. Exports `createStripeClient` / `StripeClient`
 (one service per Stripe domain — `customers`, `checkout`, `billingPortal`,
-`subscriptions`, `prices`, `products`, `invoices`, `payments`, `refunds`,
-`oauth`; `forAccount(id)` scopes a client to a Connect account), the
+`subscriptions`, `prices`, `products`, `invoices`, `paymentLinks`, `payments`,
+`refunds`, `oauth`; `forAccount(id)` scopes a client to a Connect account), the
 normalized error hierarchy (`StripeError` + `parseStripeError`), and money /
 idempotency utilities (`toMinor`, `fromMinor`, `formatMoney`,
 `createIdempotencyKey`). Webhook helpers live in the
@@ -33,6 +33,7 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 - [CustomersService](classes/CustomersService.md)
 - [InvoicesService](classes/InvoicesService.md)
 - [OAuthService](classes/OAuthService.md)
+- [PaymentLinksService](classes/PaymentLinksService.md)
 - [PaymentsService](classes/PaymentsService.md)
 - [PricesService](classes/PricesService.md)
 - [ProductsService](classes/ProductsService.md)
@@ -65,6 +66,7 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 - [ListCheckoutSessionsOptions](interfaces/ListCheckoutSessionsOptions.md)
 - [ListCustomersOptions](interfaces/ListCustomersOptions.md)
 - [ListInvoicesOptions](interfaces/ListInvoicesOptions.md)
+- [ListLineItemsOptions](interfaces/ListLineItemsOptions.md)
 - [ListPaymentsOptions](interfaces/ListPaymentsOptions.md)
 - [ListPricesOptions](interfaces/ListPricesOptions.md)
 - [ListProductsOptions](interfaces/ListProductsOptions.md)
@@ -80,6 +82,7 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 - [ReplacePriceOptions](interfaces/ReplacePriceOptions.md)
 - [ReplacePriceResult](interfaces/ReplacePriceResult.md)
 - [StripeClientConfig](interfaces/StripeClientConfig.md)
+- [TimeRange](interfaces/TimeRange.md)
 - [UpdateCustomerOptions](interfaces/UpdateCustomerOptions.md)
 - [UpdatePriceOptions](interfaces/UpdatePriceOptions.md)
 - [UpdateProductOptions](interfaces/UpdateProductOptions.md)
@@ -93,7 +96,10 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 - [Customer](type-aliases/Customer.md)
 - [Invoice](type-aliases/Invoice.md)
 - [InvoiceItem](type-aliases/InvoiceItem.md)
+- [InvoiceLineItem](type-aliases/InvoiceLineItem.md)
+- [LineItem](type-aliases/LineItem.md)
 - [Payment](type-aliases/Payment.md)
+- [PaymentLink](type-aliases/PaymentLink.md)
 - [Price](type-aliases/Price.md)
 - [Product](type-aliases/Product.md)
 - [Refund](type-aliases/Refund.md)
@@ -115,3 +121,4 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 - [parseStripeError](functions/parseStripeError.md)
 - [resolveId](functions/resolveId.md)
 - [toMinor](functions/toMinor.md)
+- [toUnixTime](functions/toUnixTime.md)

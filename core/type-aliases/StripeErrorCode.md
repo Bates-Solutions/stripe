@@ -8,6 +8,6 @@
 
 > **StripeErrorCode** = `"UNAUTHORIZED"` \| `"FORBIDDEN"` \| `"BAD_REQUEST"` \| `"INVALID_VALUE"` \| `"MISSING_REQUIRED_PARAMETER"` \| `"NOT_FOUND"` \| `"CONFLICT"` \| `"RATE_LIMITED"` \| `"IDEMPOTENCY_ERROR"` \| `"INTERNAL_SERVER_ERROR"` \| `"SERVICE_UNAVAILABLE"` \| `"CARD_DECLINED"` \| `"EXPIRED_CARD"` \| `"INCORRECT_CVC"` \| `"INCORRECT_NUMBER"` \| `"INSUFFICIENT_FUNDS"` \| `"PROCESSING_ERROR"` \| `"UNKNOWN"`
 
-Defined in: [core/errors.ts:4](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/errors.ts#L4)
+Defined in: [core/errors.ts:4](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/errors.ts#L4)
 
 Normalized Stripe error codes

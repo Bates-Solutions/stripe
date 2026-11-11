@@ -8,7 +8,7 @@
 
 > **buildAuthorizeUrl**(`options`): `string`
 
-Defined in: [core/services/oauth.service.ts:91](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/oauth.service.ts#L91)
+Defined in: [core/services/oauth.service.ts:91](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/oauth.service.ts#L91)
 
 Build the URL that sends a user to Stripe to connect their existing Stripe
 account to your platform (Connect OAuth, Standard accounts). Pure function,

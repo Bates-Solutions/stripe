@@ -8,7 +8,7 @@
 
 > **InvoiceItem** = `Stripe.InvoiceItem`
 
-Defined in: [core/services/invoices.service.ts:15](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/invoices.service.ts#L15)
+Defined in: [core/services/invoices.service.ts:15](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/invoices.service.ts#L15)
 
 A Stripe Invoice Item (a pending line item drawn onto the next invoice, or
 attached to a specific draft invoice).

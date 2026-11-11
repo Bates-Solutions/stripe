@@ -6,7 +6,7 @@
 
 # Interface: CreateProductOptions
 
-Defined in: [core/services/products.service.ts:24](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/products.service.ts#L24)
+Defined in: [core/services/products.service.ts:24](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/products.service.ts#L24)
 
 Options for creating a product
 
@@ -16,7 +16,7 @@ Options for creating a product
 
 > `optional` **active?**: `boolean`
 
-Defined in: [core/services/products.service.ts:33](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/products.service.ts#L33)
+Defined in: [core/services/products.service.ts:33](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/products.service.ts#L33)
 
 Whether the product can be bought.
 
@@ -32,7 +32,7 @@ true
 
 > `optional` **description?**: `string`
 
-Defined in: [core/services/products.service.ts:28](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/products.service.ts#L28)
+Defined in: [core/services/products.service.ts:28](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/products.service.ts#L28)
 
 Longer description shown to customers
 
@@ -42,7 +42,7 @@ Longer description shown to customers
 
 > `optional` **idempotencyKey?**: `string`
 
-Defined in: [core/services/products.service.ts:42](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/products.service.ts#L42)
+Defined in: [core/services/products.service.ts:42](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/products.service.ts#L42)
 
 Idempotency key (defaults to a generated UUID)
 
@@ -52,7 +52,7 @@ Idempotency key (defaults to a generated UUID)
 
 > `optional` **images?**: `string`[]
 
-Defined in: [core/services/products.service.ts:35](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/products.service.ts#L35)
+Defined in: [core/services/products.service.ts:35](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/products.service.ts#L35)
 
 Up to 8 image URLs
 
@@ -62,7 +62,7 @@ Up to 8 image URLs
 
 > `optional` **metadata?**: `Record`\<`string`, `string`\>
 
-Defined in: [core/services/products.service.ts:40](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/products.service.ts#L40)
+Defined in: [core/services/products.service.ts:40](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/products.service.ts#L40)
 
 Key/value metadata. Use it to tag the product with your own id so you can
 find it again on a later sync.
@@ -73,6 +73,6 @@ find it again on a later sync.
 
 > **name**: `string`
 
-Defined in: [core/services/products.service.ts:26](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/products.service.ts#L26)
+Defined in: [core/services/products.service.ts:26](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/products.service.ts#L26)
 
 Product name shown to customers (required, non-empty)

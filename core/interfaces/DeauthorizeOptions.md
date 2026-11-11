@@ -6,7 +6,7 @@
 
 # Interface: DeauthorizeOptions
 
-Defined in: [core/services/oauth.service.ts:56](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/oauth.service.ts#L56)
+Defined in: [core/services/oauth.service.ts:56](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/oauth.service.ts#L56)
 
 Options for [OAuthService.deauthorize](../classes/OAuthService.md#deauthorize)
 
@@ -16,7 +16,7 @@ Options for [OAuthService.deauthorize](../classes/OAuthService.md#deauthorize)
 
 > `optional` **clientId?**: `string`
 
-Defined in: [core/services/oauth.service.ts:61](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/oauth.service.ts#L61)
+Defined in: [core/services/oauth.service.ts:61](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/oauth.service.ts#L61)
 
 Connect client ID (`ca_…`). Defaults to `connectClientId` from the client
 config.

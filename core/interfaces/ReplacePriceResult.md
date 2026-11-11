@@ -6,7 +6,7 @@
 
 # Interface: ReplacePriceResult
 
-Defined in: [core/services/prices.service.ts:119](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/prices.service.ts#L119)
+Defined in: [core/services/prices.service.ts:119](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/prices.service.ts#L119)
 
 Result of [PricesService.replace](../classes/PricesService.md#replace).
 
@@ -16,7 +16,7 @@ Result of [PricesService.replace](../classes/PricesService.md#replace).
 
 > **previous**: `Price`
 
-Defined in: [core/services/prices.service.ts:123](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/prices.service.ts#L123)
+Defined in: [core/services/prices.service.ts:123](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/prices.service.ts#L123)
 
 The old price, now inactive
 
@@ -26,6 +26,6 @@ The old price, now inactive
 
 > **price**: `Price`
 
-Defined in: [core/services/prices.service.ts:121](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/prices.service.ts#L121)
+Defined in: [core/services/prices.service.ts:121](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/prices.service.ts#L121)
 
 The newly created, active price

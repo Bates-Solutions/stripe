@@ -6,7 +6,7 @@
 
 # Interface: PaginatedResponse\<T\>
 
-Defined in: [core/types/index.ts:30](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/types/index.ts#L30)
+Defined in: [core/types/index.ts:51](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/types/index.ts#L51)
 
 Common paginated response
 
@@ -22,7 +22,7 @@ Common paginated response
 
 > **data**: `T`[]
 
-Defined in: [core/types/index.ts:31](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/types/index.ts#L31)
+Defined in: [core/types/index.ts:52](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/types/index.ts#L52)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [core/types/index.ts:31](https://github.com/Bates-Solutions/stripe/b
 
 > **hasMore**: `boolean`
 
-Defined in: [core/types/index.ts:33](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/types/index.ts#L33)
+Defined in: [core/types/index.ts:54](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/types/index.ts#L54)
 
 Whether more records are available
 
@@ -40,6 +40,6 @@ Whether more records are available
 
 > `optional` **nextCursor?**: `string`
 
-Defined in: [core/types/index.ts:35](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/types/index.ts#L35)
+Defined in: [core/types/index.ts:56](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/types/index.ts#L56)
 
 Cursor to pass as `startingAfter` for the next page
