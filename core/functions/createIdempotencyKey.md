@@ -8,7 +8,7 @@
 
 > **createIdempotencyKey**(): `string`
 
-Defined in: [core/utils.ts:104](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/utils.ts#L104)
+Defined in: [core/utils.ts:104](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/utils.ts#L104)
 
 Create a unique idempotency key for Stripe API requests.
 

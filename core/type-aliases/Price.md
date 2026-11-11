@@ -8,6 +8,6 @@
 
 > **Price** = `Stripe.Price`
 
-Defined in: [core/services/prices.service.ts:8](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/prices.service.ts#L8)
+Defined in: [core/services/prices.service.ts:8](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/prices.service.ts#L8)
 
 A Stripe Price
