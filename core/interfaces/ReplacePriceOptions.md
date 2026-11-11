@@ -6,7 +6,7 @@
 
 # Interface: ReplacePriceOptions
 
-Defined in: [core/services/prices.service.ts:97](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/prices.service.ts#L97)
+Defined in: [core/services/prices.service.ts:97](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L97)
 
 Options for [PricesService.replace](../classes/PricesService.md#replace). Anything you omit is copied from
 the price being replaced.
@@ -17,7 +17,7 @@ the price being replaced.
 
 > `optional` **currency?**: `string`
 
-Defined in: [core/services/prices.service.ts:101](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/prices.service.ts#L101)
+Defined in: [core/services/prices.service.ts:101](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L101)
 
 New currency (defaults to the old price's currency)
 
@@ -27,7 +27,7 @@ New currency (defaults to the old price's currency)
 
 > `optional` **idempotencyKey?**: `string`
 
-Defined in: [core/services/prices.service.ts:113](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/prices.service.ts#L113)
+Defined in: [core/services/prices.service.ts:113](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L113)
 
 Idempotency key for the whole replacement (defaults to a generated UUID).
 Each underlying call uses a key derived from it, so retrying a failed
@@ -39,7 +39,7 @@ Each underlying call uses a key derived from it, so retrying a failed
 
 > `optional` **metadata?**: `Record`\<`string`, `string`\>
 
-Defined in: [core/services/prices.service.ts:107](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/prices.service.ts#L107)
+Defined in: [core/services/prices.service.ts:107](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L107)
 
 New metadata (defaults to a copy of the old price's metadata)
 
@@ -49,7 +49,7 @@ New metadata (defaults to a copy of the old price's metadata)
 
 > `optional` **nickname?**: `string`
 
-Defined in: [core/services/prices.service.ts:105](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/prices.service.ts#L105)
+Defined in: [core/services/prices.service.ts:105](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L105)
 
 New nickname (defaults to the old one)
 
@@ -59,7 +59,7 @@ New nickname (defaults to the old one)
 
 > `optional` **recurring?**: [`PriceRecurring`](PriceRecurring.md)
 
-Defined in: [core/services/prices.service.ts:103](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/prices.service.ts#L103)
+Defined in: [core/services/prices.service.ts:103](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L103)
 
 New interval (defaults to the old price's interval, if it was recurring)
 
@@ -69,6 +69,6 @@ New interval (defaults to the old price's interval, if it was recurring)
 
 > **unitAmount**: `number`
 
-Defined in: [core/services/prices.service.ts:99](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/prices.service.ts#L99)
+Defined in: [core/services/prices.service.ts:99](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L99)
 
 New amount in the smallest currency unit. A non-negative integer.

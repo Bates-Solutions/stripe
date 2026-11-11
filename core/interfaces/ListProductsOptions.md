@@ -6,7 +6,7 @@
 
 # Interface: ListProductsOptions
 
-Defined in: [core/services/products.service.ts:14](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/products.service.ts#L14)
+Defined in: [core/services/products.service.ts:14](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/products.service.ts#L14)
 
 Options for listing products
 
@@ -16,7 +16,7 @@ Options for listing products
 
 > `optional` **active?**: `boolean`
 
-Defined in: [core/services/products.service.ts:16](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/products.service.ts#L16)
+Defined in: [core/services/products.service.ts:16](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/products.service.ts#L16)
 
 Only return active (or inactive) products
 
@@ -26,7 +26,7 @@ Only return active (or inactive) products
 
 > `optional` **limit?**: `number`
 
-Defined in: [core/services/products.service.ts:17](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/products.service.ts#L17)
+Defined in: [core/services/products.service.ts:17](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/products.service.ts#L17)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [core/services/products.service.ts:17](https://github.com/Bates-Solu
 
 > `optional` **startingAfter?**: `string`
 
-Defined in: [core/services/products.service.ts:18](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/services/products.service.ts#L18)
+Defined in: [core/services/products.service.ts:18](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/products.service.ts#L18)

@@ -8,7 +8,7 @@
 
 > **resolveId**(`value`): `string` \| `undefined`
 
-Defined in: [core/utils.ts:221](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/utils.ts#L221)
+Defined in: [core/utils.ts:221](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/utils.ts#L221)
 
 Resolve a Stripe reference that may be either an ID string or an expanded
 object, to its ID.

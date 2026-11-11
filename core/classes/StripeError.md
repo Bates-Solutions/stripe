@@ -6,7 +6,7 @@
 
 # Class: StripeError
 
-Defined in: [core/errors.ts:27](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/errors.ts#L27)
+Defined in: [core/errors.ts:28](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/errors.ts#L28)
 
 Base Stripe error class
 
@@ -27,7 +27,7 @@ Base Stripe error class
 
 > **new StripeError**(`message`, `code?`, `statusCode?`, `details?`): `StripeError`
 
-Defined in: [core/errors.ts:32](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/errors.ts#L32)
+Defined in: [core/errors.ts:33](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/errors.ts#L33)
 
 #### Parameters
 
@@ -61,7 +61,7 @@ Defined in: [core/errors.ts:32](https://github.com/Bates-Solutions/stripe/blob/c
 
 > `readonly` **code**: [`StripeErrorCode`](../type-aliases/StripeErrorCode.md)
 
-Defined in: [core/errors.ts:28](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/errors.ts#L28)
+Defined in: [core/errors.ts:29](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/errors.ts#L29)
 
 ***
 
@@ -69,7 +69,7 @@ Defined in: [core/errors.ts:28](https://github.com/Bates-Solutions/stripe/blob/c
 
 > `readonly` `optional` **details?**: `unknown`
 
-Defined in: [core/errors.ts:30](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/errors.ts#L30)
+Defined in: [core/errors.ts:31](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/errors.ts#L31)
 
 ***
 
@@ -77,4 +77,4 @@ Defined in: [core/errors.ts:30](https://github.com/Bates-Solutions/stripe/blob/c
 
 > `readonly` `optional` **statusCode?**: `number`
 
-Defined in: [core/errors.ts:29](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/errors.ts#L29)
+Defined in: [core/errors.ts:30](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/errors.ts#L30)

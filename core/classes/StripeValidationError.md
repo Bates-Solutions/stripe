@@ -6,7 +6,7 @@
 
 # Class: StripeValidationError
 
-Defined in: [core/errors.ts:107](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/errors.ts#L107)
+Defined in: [core/errors.ts:111](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/errors.ts#L111)
 
 Validation errors for input this wrapper checks before calling Stripe
 
@@ -20,7 +20,7 @@ Validation errors for input this wrapper checks before calling Stripe
 
 > **new StripeValidationError**(`message`, `field?`): `StripeValidationError`
 
-Defined in: [core/errors.ts:110](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/errors.ts#L110)
+Defined in: [core/errors.ts:114](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/errors.ts#L114)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [core/errors.ts:110](https://github.com/Bates-Solutions/stripe/blob/
 
 > `readonly` **code**: [`StripeErrorCode`](../type-aliases/StripeErrorCode.md)
 
-Defined in: [core/errors.ts:28](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/errors.ts#L28)
+Defined in: [core/errors.ts:29](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/errors.ts#L29)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [core/errors.ts:28](https://github.com/Bates-Solutions/stripe/blob/c
 
 > `readonly` `optional` **details?**: `unknown`
 
-Defined in: [core/errors.ts:30](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/errors.ts#L30)
+Defined in: [core/errors.ts:31](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/errors.ts#L31)
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ Defined in: [core/errors.ts:30](https://github.com/Bates-Solutions/stripe/blob/c
 
 > `readonly` `optional` **field?**: `string`
 
-Defined in: [core/errors.ts:108](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/errors.ts#L108)
+Defined in: [core/errors.ts:112](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/errors.ts#L112)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [core/errors.ts:108](https://github.com/Bates-Solutions/stripe/blob/
 
 > `readonly` `optional` **statusCode?**: `number`
 
-Defined in: [core/errors.ts:29](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/errors.ts#L29)
+Defined in: [core/errors.ts:30](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/errors.ts#L30)
 
 #### Inherited from
 

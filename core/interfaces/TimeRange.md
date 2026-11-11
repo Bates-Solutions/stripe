@@ -6,7 +6,7 @@
 
 # Interface: TimeRange
 
-Defined in: [core/types/index.ts:37](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/types/index.ts#L37)
+Defined in: [core/types/index.ts:37](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L37)
 
 A time range filter, e.g. on an object's `created` time. Each bound is a
 `Date` or Unix seconds; omit a bound to leave that side open.
@@ -24,7 +24,7 @@ const march = { gte: new Date('2026-03-01T00:00:00Z'), lt: new Date('2026-04-01T
 
 > `optional` **gt?**: `number` \| `Date`
 
-Defined in: [core/types/index.ts:41](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/types/index.ts#L41)
+Defined in: [core/types/index.ts:41](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L41)
 
 Strictly after
 
@@ -34,7 +34,7 @@ Strictly after
 
 > `optional` **gte?**: `number` \| `Date`
 
-Defined in: [core/types/index.ts:39](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/types/index.ts#L39)
+Defined in: [core/types/index.ts:39](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L39)
 
 On or after
 
@@ -44,7 +44,7 @@ On or after
 
 > `optional` **lt?**: `number` \| `Date`
 
-Defined in: [core/types/index.ts:45](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/types/index.ts#L45)
+Defined in: [core/types/index.ts:45](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L45)
 
 Strictly before
 
@@ -54,6 +54,6 @@ Strictly before
 
 > `optional` **lte?**: `number` \| `Date`
 
-Defined in: [core/types/index.ts:43](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/types/index.ts#L43)
+Defined in: [core/types/index.ts:43](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L43)
 
 On or before

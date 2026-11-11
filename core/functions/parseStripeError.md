@@ -8,9 +8,12 @@
 
 > **parseStripeError**(`error`): [`StripeError`](../classes/StripeError.md)
 
-Defined in: [core/errors.ts:156](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/errors.ts#L156)
+Defined in: [core/errors.ts:263](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/errors.ts#L263)
 
 Parse a Stripe SDK error (or any thrown value) into a typed exception.
+
+Understands both `stripe-node` error instances and plain objects in
+Stripe's API error shape. See the error guide for the full code map.
 
 ## Parameters
 

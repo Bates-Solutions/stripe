@@ -6,7 +6,7 @@
 
 # Interface: StripeClientConfig
 
-Defined in: [core/client.ts:35](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L35)
+Defined in: [core/client.ts:35](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L35)
 
 Configuration options for the Stripe client
 
@@ -16,7 +16,7 @@ Configuration options for the Stripe client
 
 > **apiKey**: `string`
 
-Defined in: [core/client.ts:39](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L39)
+Defined in: [core/client.ts:39](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L39)
 
 Stripe secret API key (e.g. `sk_test_…` or `sk_live_…`)
 
@@ -26,7 +26,7 @@ Stripe secret API key (e.g. `sk_test_…` or `sk_live_…`)
 
 > `optional` **apiVersion?**: `string`
 
-Defined in: [core/client.ts:45](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L45)
+Defined in: [core/client.ts:45](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L45)
 
 Pin a specific Stripe API version. Omit to use the version configured on
 your Stripe account.
@@ -37,7 +37,7 @@ your Stripe account.
 
 > `optional` **connectClientId?**: `string`
 
-Defined in: [core/client.ts:65](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L65)
+Defined in: [core/client.ts:65](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L65)
 
 Your platform's Connect client ID (`ca_…`). Used as the default by
 `oauth.deauthorize`.
@@ -48,7 +48,7 @@ Your platform's Connect client ID (`ca_…`). Used as the default by
 
 > `optional` **maxNetworkRetries?**: `number`
 
-Defined in: [core/client.ts:51](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L51)
+Defined in: [core/client.ts:51](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L51)
 
 Number of times the Stripe SDK retries failed requests.
 
@@ -64,7 +64,7 @@ Number of times the Stripe SDK retries failed requests.
 
 > `optional` **stripeAccount?**: `string`
 
-Defined in: [core/client.ts:59](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L59)
+Defined in: [core/client.ts:59](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L59)
 
 Act as this connected account (`acct_…`) on every call: the SDK sends it
 as the `Stripe-Account` header. Anything that isn't an `acct_…` ID throws

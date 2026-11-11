@@ -6,7 +6,7 @@
 
 # Class: StripeClient
 
-Defined in: [core/client.ts:86](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L86)
+Defined in: [core/client.ts:86](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L86)
 
 Main Stripe client wrapper.
 
@@ -32,7 +32,7 @@ const payment = await stripe.payments.create({
 
 > **new StripeClient**(`config`): `StripeClient`
 
-Defined in: [core/client.ts:105](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L105)
+Defined in: [core/client.ts:105](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L105)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [core/client.ts:105](https://github.com/Bates-Solutions/stripe/blob/
 
 > `readonly` **billingPortal**: [`BillingPortalService`](BillingPortalService.md)
 
-Defined in: [core/client.ts:97](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L97)
+Defined in: [core/client.ts:97](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L97)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [core/client.ts:97](https://github.com/Bates-Solutions/stripe/blob/c
 
 > `readonly` **checkout**: [`CheckoutService`](CheckoutService.md)
 
-Defined in: [core/client.ts:96](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L96)
+Defined in: [core/client.ts:96](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L96)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [core/client.ts:96](https://github.com/Bates-Solutions/stripe/blob/c
 
 > `readonly` **customers**: [`CustomersService`](CustomersService.md)
 
-Defined in: [core/client.ts:94](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L94)
+Defined in: [core/client.ts:94](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L94)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [core/client.ts:94](https://github.com/Bates-Solutions/stripe/blob/c
 
 > `readonly` **invoices**: [`InvoicesService`](InvoicesService.md)
 
-Defined in: [core/client.ts:101](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L101)
+Defined in: [core/client.ts:101](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L101)
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: [core/client.ts:101](https://github.com/Bates-Solutions/stripe/blob/
 
 > `readonly` **oauth**: [`OAuthService`](OAuthService.md)
 
-Defined in: [core/client.ts:103](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L103)
+Defined in: [core/client.ts:103](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L103)
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: [core/client.ts:103](https://github.com/Bates-Solutions/stripe/blob/
 
 > `readonly` **paymentLinks**: [`PaymentLinksService`](PaymentLinksService.md)
 
-Defined in: [core/client.ts:102](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L102)
+Defined in: [core/client.ts:102](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L102)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: [core/client.ts:102](https://github.com/Bates-Solutions/stripe/blob/
 
 > `readonly` **payments**: [`PaymentsService`](PaymentsService.md)
 
-Defined in: [core/client.ts:93](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L93)
+Defined in: [core/client.ts:93](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L93)
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: [core/client.ts:93](https://github.com/Bates-Solutions/stripe/blob/c
 
 > `readonly` **prices**: [`PricesService`](PricesService.md)
 
-Defined in: [core/client.ts:99](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L99)
+Defined in: [core/client.ts:99](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L99)
 
 ***
 
@@ -114,7 +114,7 @@ Defined in: [core/client.ts:99](https://github.com/Bates-Solutions/stripe/blob/c
 
 > `readonly` **products**: [`ProductsService`](ProductsService.md)
 
-Defined in: [core/client.ts:100](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L100)
+Defined in: [core/client.ts:100](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L100)
 
 ***
 
@@ -122,7 +122,7 @@ Defined in: [core/client.ts:100](https://github.com/Bates-Solutions/stripe/blob/
 
 > `readonly` **refunds**: [`RefundsService`](RefundsService.md)
 
-Defined in: [core/client.ts:95](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L95)
+Defined in: [core/client.ts:95](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L95)
 
 ***
 
@@ -130,7 +130,7 @@ Defined in: [core/client.ts:95](https://github.com/Bates-Solutions/stripe/blob/c
 
 > `readonly` **subscriptions**: [`SubscriptionsService`](SubscriptionsService.md)
 
-Defined in: [core/client.ts:98](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L98)
+Defined in: [core/client.ts:98](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L98)
 
 ## Accessors
 
@@ -140,7 +140,7 @@ Defined in: [core/client.ts:98](https://github.com/Bates-Solutions/stripe/blob/c
 
 > **get** **accountId**(): `string` \| `undefined`
 
-Defined in: [core/client.ts:171](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L171)
+Defined in: [core/client.ts:171](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L171)
 
 The connected account this client acts as, or `undefined` for the
 platform account.
@@ -157,7 +157,7 @@ platform account.
 
 > **get** **environment**(): [`StripeEnvironment`](../type-aliases/StripeEnvironment.md)
 
-Defined in: [core/client.ts:198](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L198)
+Defined in: [core/client.ts:198](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L198)
 
 The environment this client operates in, derived from the API key.
 
@@ -173,7 +173,7 @@ The environment this client operates in, derived from the API key.
 
 > **get** **sdk**(): `Stripe`
 
-Defined in: [core/client.ts:191](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L191)
+Defined in: [core/client.ts:191](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L191)
 
 Get the underlying Stripe SDK client.
 Use this for advanced operations not covered by the wrapper.
@@ -188,7 +188,7 @@ Use this for advanced operations not covered by the wrapper.
 
 > **forAccount**(`accountId`): `StripeClient`
 
-Defined in: [core/client.ts:162](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/core/client.ts#L162)
+Defined in: [core/client.ts:162](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/client.ts#L162)
 
 Return a client that acts as a connected account. Every call it makes
 sends `Stripe-Account: <accountId>`, so all services work unchanged on

@@ -6,7 +6,7 @@
 
 # Interface: WebhookVerificationResult
 
-Defined in: [server/types.ts:83](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/server/types.ts#L83)
+Defined in: [server/types.ts:83](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/server/types.ts#L83)
 
 Result of webhook signature verification.
 
@@ -16,7 +16,7 @@ Result of webhook signature verification.
 
 > `optional` **error?**: `string`
 
-Defined in: [server/types.ts:87](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/server/types.ts#L87)
+Defined in: [server/types.ts:87](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/server/types.ts#L87)
 
 Error message if invalid
 
@@ -26,6 +26,6 @@ Error message if invalid
 
 > **valid**: `boolean`
 
-Defined in: [server/types.ts:85](https://github.com/Bates-Solutions/stripe/blob/c9f04229824430326404a02bd17b0a539a09cfb3/src/server/types.ts#L85)
+Defined in: [server/types.ts:85](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/server/types.ts#L85)
 
 Whether the signature is valid
