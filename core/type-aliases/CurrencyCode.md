@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v1.0.2**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **CurrencyCode** = `"usd"` \| `"cad"` \| `"gbp"` \| `"eur"` \| `"aud"` \| `"jpy"`
 
-Defined in: [core/types/index.ts:15](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/types/index.ts#L15)
+Defined in: [core/types/index.ts:15](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/types/index.ts#L15)
 
 Currency codes commonly used with Stripe.
 

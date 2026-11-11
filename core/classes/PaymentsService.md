@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v1.0.2**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: PaymentsService
 
-Defined in: [core/services/payments.service.ts:35](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/payments.service.ts#L35)
+Defined in: [core/services/payments.service.ts:35](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/payments.service.ts#L35)
 
 Payments service wrapping Stripe PaymentIntents.
 
@@ -27,7 +27,7 @@ const payment = await stripe.payments.create({
 
 > **new PaymentsService**(`client`): `PaymentsService`
 
-Defined in: [core/services/payments.service.ts:36](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/payments.service.ts#L36)
+Defined in: [core/services/payments.service.ts:36](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/payments.service.ts#L36)
 
 #### Parameters
 
@@ -45,7 +45,7 @@ Defined in: [core/services/payments.service.ts:36](https://github.com/mbates/str
 
 > **cancel**(`paymentId`): `Promise`\<`PaymentIntent`\>
 
-Defined in: [core/services/payments.service.ts:133](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/payments.service.ts#L133)
+Defined in: [core/services/payments.service.ts:133](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/payments.service.ts#L133)
 
 Cancel a payment.
 
@@ -75,7 +75,7 @@ const payment = await stripe.payments.cancel('pi_123');
 
 > **capture**(`paymentId`): `Promise`\<`PaymentIntent`\>
 
-Defined in: [core/services/payments.service.ts:114](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/payments.service.ts#L114)
+Defined in: [core/services/payments.service.ts:114](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/payments.service.ts#L114)
 
 Capture a payment that was authorized with `capture_method: manual`.
 
@@ -105,7 +105,7 @@ const payment = await stripe.payments.capture('pi_123');
 
 > **create**(`options`): `Promise`\<`PaymentIntent`\>
 
-Defined in: [core/services/payments.service.ts:58](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/payments.service.ts#L58)
+Defined in: [core/services/payments.service.ts:58](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/payments.service.ts#L58)
 
 Create a payment (PaymentIntent).
 
@@ -149,7 +149,7 @@ const payment = await stripe.payments.create({
 
 > **get**(`paymentId`): `Promise`\<`PaymentIntent`\>
 
-Defined in: [core/services/payments.service.ts:95](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/payments.service.ts#L95)
+Defined in: [core/services/payments.service.ts:95](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/payments.service.ts#L95)
 
 Retrieve a payment by ID.
 
@@ -179,7 +179,7 @@ const payment = await stripe.payments.get('pi_123');
 
 > **list**(`options?`): `Promise`\<[`PaginatedResponse`](../interfaces/PaginatedResponse.md)\<`PaymentIntent`\>\>
 
-Defined in: [core/services/payments.service.ts:153](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/payments.service.ts#L153)
+Defined in: [core/services/payments.service.ts:153](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/payments.service.ts#L153)
 
 List payments with cursor-based pagination.
 

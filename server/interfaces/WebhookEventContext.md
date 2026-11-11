@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v1.0.2**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: WebhookEventContext
 
-Defined in: [server/middleware/lambda.ts:33](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/server/middleware/lambda.ts#L33)
+Defined in: [server/middleware/lambda.ts:33](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/server/middleware/lambda.ts#L33)
 
 Context passed to Lambda webhook handlers with auto-extracted entity IDs.
 
@@ -16,7 +16,7 @@ Context passed to Lambda webhook handlers with auto-extracted entity IDs.
 
 > `optional` **chargeId?**: `string`
 
-Defined in: [server/middleware/lambda.ts:35](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/server/middleware/lambda.ts#L35)
+Defined in: [server/middleware/lambda.ts:35](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/server/middleware/lambda.ts#L35)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [server/middleware/lambda.ts:35](https://github.com/mbates/stripe/bl
 
 > `optional` **customerId?**: `string`
 
-Defined in: [server/middleware/lambda.ts:36](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/server/middleware/lambda.ts#L36)
+Defined in: [server/middleware/lambda.ts:36](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/server/middleware/lambda.ts#L36)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [server/middleware/lambda.ts:36](https://github.com/mbates/stripe/bl
 
 > `optional` **paymentIntentId?**: `string`
 
-Defined in: [server/middleware/lambda.ts:34](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/server/middleware/lambda.ts#L34)
+Defined in: [server/middleware/lambda.ts:34](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/server/middleware/lambda.ts#L34)

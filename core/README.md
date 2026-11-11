@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v1.0.2**](../README.md)
+[**@bates-solutions/stripe API Reference v1.0.3**](../README.md)
 
 ***
 

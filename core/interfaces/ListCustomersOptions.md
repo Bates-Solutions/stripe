@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v1.0.2**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ListCustomersOptions
 
-Defined in: [core/services/customers.service.ts:51](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/customers.service.ts#L51)
+Defined in: [core/services/customers.service.ts:51](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/customers.service.ts#L51)
 
 Options for listing customers
 
@@ -16,7 +16,7 @@ Options for listing customers
 
 > `optional` **email?**: `string`
 
-Defined in: [core/services/customers.service.ts:54](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/customers.service.ts#L54)
+Defined in: [core/services/customers.service.ts:54](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/customers.service.ts#L54)
 
 Filter by exact email address
 
@@ -26,7 +26,7 @@ Filter by exact email address
 
 > `optional` **limit?**: `number`
 
-Defined in: [core/services/customers.service.ts:52](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/customers.service.ts#L52)
+Defined in: [core/services/customers.service.ts:52](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/customers.service.ts#L52)
 
 ***
 
@@ -34,6 +34,6 @@ Defined in: [core/services/customers.service.ts:52](https://github.com/mbates/st
 
 > `optional` **startingAfter?**: `string`
 
-Defined in: [core/services/customers.service.ts:56](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/customers.service.ts#L56)
+Defined in: [core/services/customers.service.ts:56](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/customers.service.ts#L56)
 
 Cursor: return records after this customer ID

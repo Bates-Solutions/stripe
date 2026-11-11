@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v1.0.2**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ListProductsOptions
 
-Defined in: [core/services/products.service.ts:13](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/products.service.ts#L13)
+Defined in: [core/services/products.service.ts:13](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/products.service.ts#L13)
 
 Options for listing products
 
@@ -16,7 +16,7 @@ Options for listing products
 
 > `optional` **active?**: `boolean`
 
-Defined in: [core/services/products.service.ts:15](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/products.service.ts#L15)
+Defined in: [core/services/products.service.ts:15](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/products.service.ts#L15)
 
 Only return active (or inactive) products
 
@@ -26,7 +26,7 @@ Only return active (or inactive) products
 
 > `optional` **limit?**: `number`
 
-Defined in: [core/services/products.service.ts:16](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/products.service.ts#L16)
+Defined in: [core/services/products.service.ts:16](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/products.service.ts#L16)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [core/services/products.service.ts:16](https://github.com/mbates/str
 
 > `optional` **startingAfter?**: `string`
 
-Defined in: [core/services/products.service.ts:17](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/products.service.ts#L17)
+Defined in: [core/services/products.service.ts:17](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/products.service.ts#L17)

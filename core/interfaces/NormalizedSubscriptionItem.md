@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v1.0.2**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: NormalizedSubscriptionItem
 
-Defined in: [core/services/subscriptions.service.ts:19](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/subscriptions.service.ts#L19)
+Defined in: [core/services/subscriptions.service.ts:19](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/subscriptions.service.ts#L19)
 
 A single normalized subscription item.
 
@@ -16,7 +16,7 @@ A single normalized subscription item.
 
 > **id**: `string`
 
-Defined in: [core/services/subscriptions.service.ts:20](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/subscriptions.service.ts#L20)
+Defined in: [core/services/subscriptions.service.ts:20](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/subscriptions.service.ts#L20)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [core/services/subscriptions.service.ts:20](https://github.com/mbate
 
 > `optional` **priceId?**: `string`
 
-Defined in: [core/services/subscriptions.service.ts:21](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/subscriptions.service.ts#L21)
+Defined in: [core/services/subscriptions.service.ts:21](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/subscriptions.service.ts#L21)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [core/services/subscriptions.service.ts:21](https://github.com/mbate
 
 > `optional` **quantity?**: `number`
 
-Defined in: [core/services/subscriptions.service.ts:22](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/subscriptions.service.ts#L22)
+Defined in: [core/services/subscriptions.service.ts:22](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/subscriptions.service.ts#L22)

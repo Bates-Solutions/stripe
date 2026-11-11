@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v1.0.2**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ListInvoicesOptions
 
-Defined in: [core/services/invoices.service.ts:79](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/invoices.service.ts#L79)
+Defined in: [core/services/invoices.service.ts:79](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/invoices.service.ts#L79)
 
 Options for listing invoices.
 
@@ -16,7 +16,7 @@ Options for listing invoices.
 
 > `optional` **customerId?**: `string`
 
-Defined in: [core/services/invoices.service.ts:80](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/invoices.service.ts#L80)
+Defined in: [core/services/invoices.service.ts:80](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/invoices.service.ts#L80)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [core/services/invoices.service.ts:80](https://github.com/mbates/str
 
 > `optional` **limit?**: `number`
 
-Defined in: [core/services/invoices.service.ts:83](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/invoices.service.ts#L83)
+Defined in: [core/services/invoices.service.ts:83](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/invoices.service.ts#L83)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [core/services/invoices.service.ts:83](https://github.com/mbates/str
 
 > `optional` **startingAfter?**: `string`
 
-Defined in: [core/services/invoices.service.ts:84](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/invoices.service.ts#L84)
+Defined in: [core/services/invoices.service.ts:84](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/invoices.service.ts#L84)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [core/services/invoices.service.ts:84](https://github.com/mbates/str
 
 > `optional` **status?**: `Status`
 
-Defined in: [core/services/invoices.service.ts:82](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/invoices.service.ts#L82)
+Defined in: [core/services/invoices.service.ts:82](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/invoices.service.ts#L82)
 
 ***
 
@@ -48,4 +48,4 @@ Defined in: [core/services/invoices.service.ts:82](https://github.com/mbates/str
 
 > `optional` **subscriptionId?**: `string`
 
-Defined in: [core/services/invoices.service.ts:81](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/invoices.service.ts#L81)
+Defined in: [core/services/invoices.service.ts:81](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/invoices.service.ts#L81)

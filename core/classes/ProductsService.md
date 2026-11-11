@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v1.0.2**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ProductsService
 
-Defined in: [core/services/products.service.ts:30](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/products.service.ts#L30)
+Defined in: [core/services/products.service.ts:30](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/products.service.ts#L30)
 
 Products service wrapping Stripe [Products](https://docs.stripe.com/api/products).
 
@@ -24,7 +24,7 @@ console.log(product.metadata);
 
 > **new ProductsService**(`client`): `ProductsService`
 
-Defined in: [core/services/products.service.ts:31](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/products.service.ts#L31)
+Defined in: [core/services/products.service.ts:31](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/products.service.ts#L31)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [core/services/products.service.ts:31](https://github.com/mbates/str
 
 > **get**(`productId`): `Promise`\<`Product`\>
 
-Defined in: [core/services/products.service.ts:57](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/products.service.ts#L57)
+Defined in: [core/services/products.service.ts:57](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/products.service.ts#L57)
 
 Retrieve a product by ID.
 
@@ -62,7 +62,7 @@ Retrieve a product by ID.
 
 > **list**(`options?`): `Promise`\<[`PaginatedResponse`](../interfaces/PaginatedResponse.md)\<`Product`\>\>
 
-Defined in: [core/services/products.service.ts:36](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/products.service.ts#L36)
+Defined in: [core/services/products.service.ts:36](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/products.service.ts#L36)
 
 List products with cursor-based pagination.
 

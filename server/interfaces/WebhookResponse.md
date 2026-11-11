@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v1.0.2**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: WebhookResponse
 
-Defined in: [server/middleware/nextjs.ts:8](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/server/middleware/nextjs.ts#L8)
+Defined in: [server/middleware/nextjs.ts:8](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/server/middleware/nextjs.ts#L8)
 
 Response type for Next.js webhook handlers.
 
@@ -16,7 +16,7 @@ Response type for Next.js webhook handlers.
 
 > **body**: `Record`\<`string`, `unknown`\>
 
-Defined in: [server/middleware/nextjs.ts:10](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/server/middleware/nextjs.ts#L10)
+Defined in: [server/middleware/nextjs.ts:10](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/server/middleware/nextjs.ts#L10)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [server/middleware/nextjs.ts:10](https://github.com/mbates/stripe/bl
 
 > **status**: `number`
 
-Defined in: [server/middleware/nextjs.ts:9](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/server/middleware/nextjs.ts#L9)
+Defined in: [server/middleware/nextjs.ts:9](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/server/middleware/nextjs.ts#L9)

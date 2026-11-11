@@ -1,8 +1,8 @@
-**@bates-solutions/stripe API Reference v1.0.2**
+**@bates-solutions/stripe API Reference v1.0.3**
 
 ***
 
-# @bates-solutions/stripe API Reference v1.0.2
+# @bates-solutions/stripe API Reference v1.0.3
 
 ## Modules
 

@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v1.0.2**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ListRefundsOptions
 
-Defined in: [core/services/refunds.service.ts:39](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/refunds.service.ts#L39)
+Defined in: [core/services/refunds.service.ts:39](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/refunds.service.ts#L39)
 
 Options for listing refunds
 
@@ -16,7 +16,7 @@ Options for listing refunds
 
 > `optional` **chargeId?**: `string`
 
-Defined in: [core/services/refunds.service.ts:44](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/refunds.service.ts#L44)
+Defined in: [core/services/refunds.service.ts:44](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/refunds.service.ts#L44)
 
 Only return refunds for this charge
 
@@ -26,7 +26,7 @@ Only return refunds for this charge
 
 > `optional` **limit?**: `number`
 
-Defined in: [core/services/refunds.service.ts:40](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/refunds.service.ts#L40)
+Defined in: [core/services/refunds.service.ts:40](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/refunds.service.ts#L40)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [core/services/refunds.service.ts:40](https://github.com/mbates/stri
 
 > `optional` **paymentIntentId?**: `string`
 
-Defined in: [core/services/refunds.service.ts:42](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/refunds.service.ts#L42)
+Defined in: [core/services/refunds.service.ts:42](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/refunds.service.ts#L42)
 
 Only return refunds for this PaymentIntent
 
@@ -44,6 +44,6 @@ Only return refunds for this PaymentIntent
 
 > `optional` **startingAfter?**: `string`
 
-Defined in: [core/services/refunds.service.ts:46](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/refunds.service.ts#L46)
+Defined in: [core/services/refunds.service.ts:46](https://github.com/Bates-Solutions/stripe/blob/1dcbd6600ff77a2cbbfdca118cc0263fca0f0acc/src/core/services/refunds.service.ts#L46)
 
 Cursor: return records after this refund ID
