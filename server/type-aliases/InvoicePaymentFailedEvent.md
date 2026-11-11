@@ -8,4 +8,4 @@
 
 > **InvoicePaymentFailedEvent** = `Extract`\<`Stripe.Event`, \{ `type`: `"invoice.payment_failed"`; \}\>
 
-Defined in: [server/types.ts:78](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/server/types.ts#L78)
+Defined in: [server/types.ts:78](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/server/types.ts#L78)

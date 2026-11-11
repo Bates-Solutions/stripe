@@ -6,7 +6,7 @@
 
 # Interface: ListPricesOptions
 
-Defined in: [core/services/prices.service.ts:13](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/prices.service.ts#L13)
+Defined in: [core/services/prices.service.ts:14](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L14)
 
 Options for listing prices
 
@@ -16,7 +16,7 @@ Options for listing prices
 
 > `optional` **active?**: `boolean`
 
-Defined in: [core/services/prices.service.ts:15](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/prices.service.ts#L15)
+Defined in: [core/services/prices.service.ts:16](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L16)
 
 Only return active (or inactive) prices
 
@@ -26,7 +26,7 @@ Only return active (or inactive) prices
 
 > `optional` **expandProduct?**: `boolean`
 
-Defined in: [core/services/prices.service.ts:25](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/prices.service.ts#L25)
+Defined in: [core/services/prices.service.ts:26](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L26)
 
 Expand the related product inline (`price.product` becomes the full
 `Stripe.Product` instead of an ID). Handy for reading product metadata.
@@ -43,7 +43,7 @@ false
 
 > `optional` **limit?**: `number`
 
-Defined in: [core/services/prices.service.ts:18](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/prices.service.ts#L18)
+Defined in: [core/services/prices.service.ts:19](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L19)
 
 ***
 
@@ -51,7 +51,7 @@ Defined in: [core/services/prices.service.ts:18](https://github.com/Bates-Soluti
 
 > `optional` **product?**: `string`
 
-Defined in: [core/services/prices.service.ts:17](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/prices.service.ts#L17)
+Defined in: [core/services/prices.service.ts:18](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L18)
 
 Only return prices for this product
 
@@ -61,4 +61,4 @@ Only return prices for this product
 
 > `optional` **startingAfter?**: `string`
 
-Defined in: [core/services/prices.service.ts:19](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/prices.service.ts#L19)
+Defined in: [core/services/prices.service.ts:20](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L20)

@@ -6,7 +6,7 @@
 
 # Interface: WebhookResponse
 
-Defined in: [server/middleware/nextjs.ts:8](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/server/middleware/nextjs.ts#L8)
+Defined in: [server/middleware/nextjs.ts:8](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/server/middleware/nextjs.ts#L8)
 
 Response type for Next.js webhook handlers.
 
@@ -16,7 +16,7 @@ Response type for Next.js webhook handlers.
 
 > **body**: `Record`\<`string`, `unknown`\>
 
-Defined in: [server/middleware/nextjs.ts:10](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/server/middleware/nextjs.ts#L10)
+Defined in: [server/middleware/nextjs.ts:10](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/server/middleware/nextjs.ts#L10)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [server/middleware/nextjs.ts:10](https://github.com/Bates-Solutions/
 
 > **status**: `number`
 
-Defined in: [server/middleware/nextjs.ts:9](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/server/middleware/nextjs.ts#L9)
+Defined in: [server/middleware/nextjs.ts:9](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/server/middleware/nextjs.ts#L9)

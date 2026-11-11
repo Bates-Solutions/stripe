@@ -6,7 +6,7 @@
 
 # Interface: ListRefundsOptions
 
-Defined in: [core/services/refunds.service.ts:39](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/refunds.service.ts#L39)
+Defined in: [core/services/refunds.service.ts:39](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/refunds.service.ts#L39)
 
 Options for listing refunds
 
@@ -16,7 +16,7 @@ Options for listing refunds
 
 > `optional` **chargeId?**: `string`
 
-Defined in: [core/services/refunds.service.ts:44](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/refunds.service.ts#L44)
+Defined in: [core/services/refunds.service.ts:44](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/refunds.service.ts#L44)
 
 Only return refunds for this charge
 
@@ -26,7 +26,7 @@ Only return refunds for this charge
 
 > `optional` **limit?**: `number`
 
-Defined in: [core/services/refunds.service.ts:40](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/refunds.service.ts#L40)
+Defined in: [core/services/refunds.service.ts:40](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/refunds.service.ts#L40)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [core/services/refunds.service.ts:40](https://github.com/Bates-Solut
 
 > `optional` **paymentIntentId?**: `string`
 
-Defined in: [core/services/refunds.service.ts:42](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/refunds.service.ts#L42)
+Defined in: [core/services/refunds.service.ts:42](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/refunds.service.ts#L42)
 
 Only return refunds for this PaymentIntent
 
@@ -44,6 +44,6 @@ Only return refunds for this PaymentIntent
 
 > `optional` **startingAfter?**: `string`
 
-Defined in: [core/services/refunds.service.ts:46](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/refunds.service.ts#L46)
+Defined in: [core/services/refunds.service.ts:46](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/refunds.service.ts#L46)
 
 Cursor: return records after this refund ID

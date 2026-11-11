@@ -6,7 +6,7 @@
 
 # Interface: ListCustomersOptions
 
-Defined in: [core/services/customers.service.ts:51](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/customers.service.ts#L51)
+Defined in: [core/services/customers.service.ts:51](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/customers.service.ts#L51)
 
 Options for listing customers
 
@@ -16,7 +16,7 @@ Options for listing customers
 
 > `optional` **email?**: `string`
 
-Defined in: [core/services/customers.service.ts:54](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/customers.service.ts#L54)
+Defined in: [core/services/customers.service.ts:54](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/customers.service.ts#L54)
 
 Filter by exact email address
 
@@ -26,7 +26,7 @@ Filter by exact email address
 
 > `optional` **limit?**: `number`
 
-Defined in: [core/services/customers.service.ts:52](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/customers.service.ts#L52)
+Defined in: [core/services/customers.service.ts:52](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/customers.service.ts#L52)
 
 ***
 
@@ -34,6 +34,6 @@ Defined in: [core/services/customers.service.ts:52](https://github.com/Bates-Sol
 
 > `optional` **startingAfter?**: `string`
 
-Defined in: [core/services/customers.service.ts:56](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/customers.service.ts#L56)
+Defined in: [core/services/customers.service.ts:56](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/customers.service.ts#L56)
 
 Cursor: return records after this customer ID

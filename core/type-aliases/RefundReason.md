@@ -8,6 +8,6 @@
 
 > **RefundReason** = `"duplicate"` \| `"fraudulent"` \| `"requested_by_customer"`
 
-Defined in: [core/services/refunds.service.ts:14](https://github.com/Bates-Solutions/stripe/blob/d2bb14f0921c772ec3367df6bd73049477224ac3/src/core/services/refunds.service.ts#L14)
+Defined in: [core/services/refunds.service.ts:14](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/refunds.service.ts#L14)
 
 Reason for a refund

@@ -53,6 +53,8 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 - [CreateInvoiceOptions](interfaces/CreateInvoiceOptions.md)
 - [CreatePaymentOptions](interfaces/CreatePaymentOptions.md)
 - [CreatePortalSessionOptions](interfaces/CreatePortalSessionOptions.md)
+- [CreatePriceOptions](interfaces/CreatePriceOptions.md)
+- [CreateProductOptions](interfaces/CreateProductOptions.md)
 - [CreateRefundOptions](interfaces/CreateRefundOptions.md)
 - [CustomerAddress](interfaces/CustomerAddress.md)
 - [ListCheckoutSessionsOptions](interfaces/ListCheckoutSessionsOptions.md)
@@ -69,8 +71,13 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 - [NormalizedSubscriptionItem](interfaces/NormalizedSubscriptionItem.md)
 - [PaginatedResponse](interfaces/PaginatedResponse.md)
 - [PaginationOptions](interfaces/PaginationOptions.md)
+- [PriceRecurring](interfaces/PriceRecurring.md)
+- [ReplacePriceOptions](interfaces/ReplacePriceOptions.md)
+- [ReplacePriceResult](interfaces/ReplacePriceResult.md)
 - [StripeClientConfig](interfaces/StripeClientConfig.md)
 - [UpdateCustomerOptions](interfaces/UpdateCustomerOptions.md)
+- [UpdatePriceOptions](interfaces/UpdatePriceOptions.md)
+- [UpdateProductOptions](interfaces/UpdateProductOptions.md)
 
 ## Type Aliases
 
