@@ -6,7 +6,7 @@
 
 # Class: CheckoutService
 
-Defined in: [core/services/checkout.service.ts:76](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/checkout.service.ts#L76)
+Defined in: [core/services/checkout.service.ts:76](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/checkout.service.ts#L76)
 
 Checkout service wrapping Stripe [Checkout Sessions](https://docs.stripe.com/api/checkout/sessions).
 
@@ -30,7 +30,7 @@ redirect(session.url);
 
 > **new CheckoutService**(`client`): `CheckoutService`
 
-Defined in: [core/services/checkout.service.ts:77](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/checkout.service.ts#L77)
+Defined in: [core/services/checkout.service.ts:77](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/checkout.service.ts#L77)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [core/services/checkout.service.ts:77](https://github.com/Bates-Solu
 
 > **create**(`options`): `Promise`\<`Session`\>
 
-Defined in: [core/services/checkout.service.ts:87](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/checkout.service.ts#L87)
+Defined in: [core/services/checkout.service.ts:87](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/checkout.service.ts#L87)
 
 Create a Checkout Session.
 
@@ -76,7 +76,7 @@ When required fields are missing
 
 > **expire**(`sessionId`): `Promise`\<`Session`\>
 
-Defined in: [core/services/checkout.service.ts:138](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/checkout.service.ts#L138)
+Defined in: [core/services/checkout.service.ts:138](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/checkout.service.ts#L138)
 
 Expire an open Checkout Session so it can no longer be completed.
 
@@ -96,7 +96,7 @@ Expire an open Checkout Session so it can no longer be completed.
 
 > **get**(`sessionId`): `Promise`\<`Session`\>
 
-Defined in: [core/services/checkout.service.ts:127](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/checkout.service.ts#L127)
+Defined in: [core/services/checkout.service.ts:127](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/checkout.service.ts#L127)
 
 Retrieve a Checkout Session by ID.
 
@@ -116,7 +116,7 @@ Retrieve a Checkout Session by ID.
 
 > **list**(`options?`): `Promise`\<[`PaginatedResponse`](../interfaces/PaginatedResponse.md)\<`Session`\>\>
 
-Defined in: [core/services/checkout.service.ts:149](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/checkout.service.ts#L149)
+Defined in: [core/services/checkout.service.ts:149](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/checkout.service.ts#L149)
 
 List Checkout Sessions with cursor-based pagination.
 

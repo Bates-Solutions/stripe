@@ -6,7 +6,7 @@
 
 # Interface: ListCheckoutSessionsOptions
 
-Defined in: [core/services/checkout.service.ts:53](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/checkout.service.ts#L53)
+Defined in: [core/services/checkout.service.ts:53](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/checkout.service.ts#L53)
 
 Options for listing Checkout Sessions
 
@@ -16,7 +16,7 @@ Options for listing Checkout Sessions
 
 > `optional` **customerId?**: `string`
 
-Defined in: [core/services/checkout.service.ts:55](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/checkout.service.ts#L55)
+Defined in: [core/services/checkout.service.ts:55](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/checkout.service.ts#L55)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [core/services/checkout.service.ts:55](https://github.com/Bates-Solu
 
 > `optional` **limit?**: `number`
 
-Defined in: [core/services/checkout.service.ts:54](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/checkout.service.ts#L54)
+Defined in: [core/services/checkout.service.ts:54](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/checkout.service.ts#L54)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [core/services/checkout.service.ts:54](https://github.com/Bates-Solu
 
 > `optional` **startingAfter?**: `string`
 
-Defined in: [core/services/checkout.service.ts:57](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/checkout.service.ts#L57)
+Defined in: [core/services/checkout.service.ts:57](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/checkout.service.ts#L57)
 
 ***
 
@@ -40,4 +40,4 @@ Defined in: [core/services/checkout.service.ts:57](https://github.com/Bates-Solu
 
 > `optional` **subscriptionId?**: `string`
 
-Defined in: [core/services/checkout.service.ts:56](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/checkout.service.ts#L56)
+Defined in: [core/services/checkout.service.ts:56](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/checkout.service.ts#L56)

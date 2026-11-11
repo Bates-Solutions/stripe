@@ -6,7 +6,7 @@
 
 # Interface: ListSubscriptionsOptions
 
-Defined in: [core/services/subscriptions.service.ts:89](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/subscriptions.service.ts#L89)
+Defined in: [core/services/subscriptions.service.ts:89](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/subscriptions.service.ts#L89)
 
 Options for listing subscriptions
 
@@ -16,7 +16,7 @@ Options for listing subscriptions
 
 > `optional` **customerId?**: `string`
 
-Defined in: [core/services/subscriptions.service.ts:90](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/subscriptions.service.ts#L90)
+Defined in: [core/services/subscriptions.service.ts:90](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/subscriptions.service.ts#L90)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [core/services/subscriptions.service.ts:90](https://github.com/Bates
 
 > `optional` **limit?**: `number`
 
-Defined in: [core/services/subscriptions.service.ts:92](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/subscriptions.service.ts#L92)
+Defined in: [core/services/subscriptions.service.ts:92](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/subscriptions.service.ts#L92)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [core/services/subscriptions.service.ts:92](https://github.com/Bates
 
 > `optional` **startingAfter?**: `string`
 
-Defined in: [core/services/subscriptions.service.ts:93](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/subscriptions.service.ts#L93)
+Defined in: [core/services/subscriptions.service.ts:93](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/subscriptions.service.ts#L93)
 
 ***
 
@@ -40,4 +40,4 @@ Defined in: [core/services/subscriptions.service.ts:93](https://github.com/Bates
 
 > `optional` **status?**: `Status`
 
-Defined in: [core/services/subscriptions.service.ts:91](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/subscriptions.service.ts#L91)
+Defined in: [core/services/subscriptions.service.ts:91](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/subscriptions.service.ts#L91)

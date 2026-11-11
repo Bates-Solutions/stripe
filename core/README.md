@@ -10,7 +10,8 @@
 
 The package's main entrypoint. Exports `createStripeClient` / `StripeClient`
 (one service per Stripe domain — `customers`, `checkout`, `billingPortal`,
-`subscriptions`, `prices`, `products`, `invoices`, `payments`, `refunds`), the
+`subscriptions`, `prices`, `products`, `invoices`, `payments`, `refunds`,
+`oauth`; `forAccount(id)` scopes a client to a Connect account), the
 normalized error hierarchy (`StripeError` + `parseStripeError`), and money /
 idempotency utilities (`toMinor`, `fromMinor`, `formatMoney`,
 `createIdempotencyKey`). Webhook helpers live in the
@@ -31,6 +32,7 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 - [CheckoutService](classes/CheckoutService.md)
 - [CustomersService](classes/CustomersService.md)
 - [InvoicesService](classes/InvoicesService.md)
+- [OAuthService](classes/OAuthService.md)
 - [PaymentsService](classes/PaymentsService.md)
 - [PricesService](classes/PricesService.md)
 - [ProductsService](classes/ProductsService.md)
@@ -46,8 +48,10 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 ## Interfaces
 
 - [AddInvoiceItemOptions](interfaces/AddInvoiceItemOptions.md)
+- [BuildAuthorizeUrlOptions](interfaces/BuildAuthorizeUrlOptions.md)
 - [CancelSubscriptionOptions](interfaces/CancelSubscriptionOptions.md)
 - [CheckoutLineItem](interfaces/CheckoutLineItem.md)
+- [ConnectedAccountGrant](interfaces/ConnectedAccountGrant.md)
 - [CreateCheckoutSessionOptions](interfaces/CreateCheckoutSessionOptions.md)
 - [CreateCustomerOptions](interfaces/CreateCustomerOptions.md)
 - [CreateInvoiceOptions](interfaces/CreateInvoiceOptions.md)
@@ -57,6 +61,7 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 - [CreateProductOptions](interfaces/CreateProductOptions.md)
 - [CreateRefundOptions](interfaces/CreateRefundOptions.md)
 - [CustomerAddress](interfaces/CustomerAddress.md)
+- [DeauthorizeOptions](interfaces/DeauthorizeOptions.md)
 - [ListCheckoutSessionsOptions](interfaces/ListCheckoutSessionsOptions.md)
 - [ListCustomersOptions](interfaces/ListCustomersOptions.md)
 - [ListInvoicesOptions](interfaces/ListInvoicesOptions.md)
@@ -83,6 +88,7 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 
 - [BillingPortalSession](type-aliases/BillingPortalSession.md)
 - [CheckoutSession](type-aliases/CheckoutSession.md)
+- [ConnectOAuthScope](type-aliases/ConnectOAuthScope.md)
 - [CurrencyCode](type-aliases/CurrencyCode.md)
 - [Customer](type-aliases/Customer.md)
 - [Invoice](type-aliases/Invoice.md)
@@ -99,6 +105,7 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 
 ## Functions
 
+- [buildAuthorizeUrl](functions/buildAuthorizeUrl.md)
 - [createIdempotencyKey](functions/createIdempotencyKey.md)
 - [createStripeClient](functions/createStripeClient.md)
 - [formatMoney](functions/formatMoney.md)

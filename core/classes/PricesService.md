@@ -6,7 +6,7 @@
 
 # Class: PricesService
 
-Defined in: [core/services/prices.service.ts:181](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L181)
+Defined in: [core/services/prices.service.ts:181](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/prices.service.ts#L181)
 
 Prices service wrapping Stripe [Prices](https://docs.stripe.com/api/prices).
 
@@ -34,7 +34,7 @@ const { price: newPrice } = await stripe.prices.replace(price.id, { unitAmount: 
 
 > **new PricesService**(`client`): `PricesService`
 
-Defined in: [core/services/prices.service.ts:182](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L182)
+Defined in: [core/services/prices.service.ts:182](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/prices.service.ts#L182)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ Defined in: [core/services/prices.service.ts:182](https://github.com/Bates-Solut
 
 > **archive**(`priceId`, `options?`): `Promise`\<`Price`\>
 
-Defined in: [core/services/prices.service.ts:303](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L303)
+Defined in: [core/services/prices.service.ts:303](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/prices.service.ts#L303)
 
 Deactivate a price (`active: false`) so it can't be used for new
 purchases. Existing subscriptions on it keep working.
@@ -83,7 +83,7 @@ When `priceId` is missing
 
 > **create**(`options`): `Promise`\<`Price`\>
 
-Defined in: [core/services/prices.service.ts:240](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L240)
+Defined in: [core/services/prices.service.ts:240](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/prices.service.ts#L240)
 
 Create a price for a product.
 
@@ -123,7 +123,7 @@ await stripe.prices.create({
 
 > **get**(`priceId`, `options?`): `Promise`\<`Price`\>
 
-Defined in: [core/services/prices.service.ts:210](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L210)
+Defined in: [core/services/prices.service.ts:210](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/prices.service.ts#L210)
 
 Retrieve a price by ID, optionally expanding its product.
 
@@ -149,7 +149,7 @@ Retrieve a price by ID, optionally expanding its product.
 
 > **list**(`options?`): `Promise`\<[`PaginatedResponse`](../interfaces/PaginatedResponse.md)\<`Price`\>\>
 
-Defined in: [core/services/prices.service.ts:187](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L187)
+Defined in: [core/services/prices.service.ts:187](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/prices.service.ts#L187)
 
 List prices with cursor-based pagination.
 
@@ -169,7 +169,7 @@ List prices with cursor-based pagination.
 
 > **replace**(`priceId`, `options`): `Promise`\<[`ReplacePriceResult`](../interfaces/ReplacePriceResult.md)\>
 
-Defined in: [core/services/prices.service.ts:341](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L341)
+Defined in: [core/services/prices.service.ts:341](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/prices.service.ts#L341)
 
 Change a price by replacing it: create a new price on the same product,
 then deactivate the old one.
@@ -227,7 +227,7 @@ const { price, previous } = await stripe.prices.replace('price_old', {
 
 > **update**(`priceId`, `options`): `Promise`\<`Price`\>
 
-Defined in: [core/services/prices.service.ts:275](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/core/services/prices.service.ts#L275)
+Defined in: [core/services/prices.service.ts:275](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/core/services/prices.service.ts#L275)
 
 Update a price's mutable fields (active flag, nickname, lookup key,
 metadata).

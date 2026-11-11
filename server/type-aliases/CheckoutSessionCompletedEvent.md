@@ -8,7 +8,7 @@
 
 > **CheckoutSessionCompletedEvent** = `Extract`\<`Stripe.Event`, \{ `type`: `"checkout.session.completed"`; \}\>
 
-Defined in: [server/types.ts:73](https://github.com/Bates-Solutions/stripe/blob/99b551ac8e746685da58308357282a60f729ff9d/src/server/types.ts#L73)
+Defined in: [server/types.ts:73](https://github.com/Bates-Solutions/stripe/blob/861ee1d28dc4956ccb17a2772dd84e4464ae56f1/src/server/types.ts#L73)
 
 Convenience aliases for the subscription-lifecycle events, each narrowed to
 its concrete `data.object` type. Handy for typing standalone handler
