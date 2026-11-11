@@ -6,7 +6,7 @@
 
 # Interface: CreatePaymentOptions
 
-Defined in: [core/types/index.ts:71](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L71)
+Defined in: [core/types/index.ts:71](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/types/index.ts#L71)
 
 Options for creating a payment (PaymentIntent)
 
@@ -16,7 +16,7 @@ Options for creating a payment (PaymentIntent)
 
 > **amount**: `number`
 
-Defined in: [core/types/index.ts:73](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L73)
+Defined in: [core/types/index.ts:73](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/types/index.ts#L73)
 
 Amount in the smallest currency unit (e.g. cents)
 
@@ -26,7 +26,7 @@ Amount in the smallest currency unit (e.g. cents)
 
 > `optional` **confirm?**: `boolean`
 
-Defined in: [core/types/index.ts:84](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L84)
+Defined in: [core/types/index.ts:84](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/types/index.ts#L84)
 
 Confirm the PaymentIntent immediately after creation.
 
@@ -42,7 +42,7 @@ false
 
 > `optional` **currency?**: [`CurrencyCode`](../type-aliases/CurrencyCode.md)
 
-Defined in: [core/types/index.ts:75](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L75)
+Defined in: [core/types/index.ts:75](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/types/index.ts#L75)
 
 ISO currency code (default: `usd`)
 
@@ -52,7 +52,7 @@ ISO currency code (default: `usd`)
 
 > `optional` **customerId?**: `string`
 
-Defined in: [core/types/index.ts:77](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L77)
+Defined in: [core/types/index.ts:77](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/types/index.ts#L77)
 
 Customer to attach the payment to
 
@@ -62,7 +62,7 @@ Customer to attach the payment to
 
 > `optional` **description?**: `string`
 
-Defined in: [core/types/index.ts:86](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L86)
+Defined in: [core/types/index.ts:93](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/types/index.ts#L93)
 
 Arbitrary description shown in the Stripe dashboard
 
@@ -72,7 +72,7 @@ Arbitrary description shown in the Stripe dashboard
 
 > `optional` **idempotencyKey?**: `string`
 
-Defined in: [core/types/index.ts:92](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L92)
+Defined in: [core/types/index.ts:99](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/types/index.ts#L99)
 
 Idempotency key (defaults to a generated UUID)
 
@@ -82,9 +82,22 @@ Idempotency key (defaults to a generated UUID)
 
 > `optional` **metadata?**: `Record`\<`string`, `string`\>
 
-Defined in: [core/types/index.ts:90](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L90)
+Defined in: [core/types/index.ts:97](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/types/index.ts#L97)
 
 Key/value metadata attached to the PaymentIntent
+
+***
+
+### offSession?
+
+> `optional` **offSession?**: `boolean`
+
+Defined in: [core/types/index.ts:91](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/types/index.ts#L91)
+
+The customer is not present (charging a saved payment method). Use with
+`confirm: true`. If the bank asks for authentication, Stripe then fails
+the payment (`authentication_required`) instead of leaving it in
+`requires_action`.
 
 ***
 
@@ -92,7 +105,7 @@ Key/value metadata attached to the PaymentIntent
 
 > `optional` **paymentMethod?**: `string`
 
-Defined in: [core/types/index.ts:79](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L79)
+Defined in: [core/types/index.ts:79](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/types/index.ts#L79)
 
 Payment method to charge (e.g. `pm_…`)
 
@@ -102,6 +115,6 @@ Payment method to charge (e.g. `pm_…`)
 
 > `optional` **receiptEmail?**: `string`
 
-Defined in: [core/types/index.ts:88](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/types/index.ts#L88)
+Defined in: [core/types/index.ts:95](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/types/index.ts#L95)
 
 Email address to send the receipt to

@@ -6,7 +6,7 @@
 
 # Class: PaymentLinksService
 
-Defined in: [core/services/payment-links.service.ts:25](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/payment-links.service.ts#L25)
+Defined in: [core/services/payment-links.service.ts:25](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/payment-links.service.ts#L25)
 
 Payment Links service wrapping Stripe
 [Payment Links](https://docs.stripe.com/api/payment-link) (read-only).
@@ -28,7 +28,7 @@ const offered = await stripe.paymentLinks.listLineItems(link.id);
 
 > **new PaymentLinksService**(`client`): `PaymentLinksService`
 
-Defined in: [core/services/payment-links.service.ts:26](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/payment-links.service.ts#L26)
+Defined in: [core/services/payment-links.service.ts:26](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/payment-links.service.ts#L26)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [core/services/payment-links.service.ts:26](https://github.com/Bates
 
 > **get**(`paymentLinkId`): `Promise`\<`PaymentLink`\>
 
-Defined in: [core/services/payment-links.service.ts:31](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/payment-links.service.ts#L31)
+Defined in: [core/services/payment-links.service.ts:31](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/payment-links.service.ts#L31)
 
 Retrieve a Payment Link by ID.
 
@@ -66,7 +66,7 @@ Retrieve a Payment Link by ID.
 
 > **listLineItems**(`paymentLinkId`, `options?`): `Promise`\<`LineItem`[]\>
 
-Defined in: [core/services/payment-links.service.ts:44](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/payment-links.service.ts#L44)
+Defined in: [core/services/payment-links.service.ts:44](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/payment-links.service.ts#L44)
 
 List all line items of a Payment Link (every page, fetched for you).
 

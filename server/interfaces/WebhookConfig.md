@@ -6,7 +6,7 @@
 
 # Interface: WebhookConfig
 
-Defined in: [server/types.ts:56](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/server/types.ts#L56)
+Defined in: [server/types.ts:56](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/server/types.ts#L56)
 
 Configuration for webhook handling.
 
@@ -24,7 +24,7 @@ Configuration for webhook handling.
 
 > **handlers**: [`WebhookHandlers`](../type-aliases/WebhookHandlers.md)
 
-Defined in: [server/types.ts:60](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/server/types.ts#L60)
+Defined in: [server/types.ts:60](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/server/types.ts#L60)
 
 Event handlers by type
 
@@ -34,7 +34,7 @@ Event handlers by type
 
 > **signingSecret**: `string`
 
-Defined in: [server/types.ts:58](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/server/types.ts#L58)
+Defined in: [server/types.ts:58](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/server/types.ts#L58)
 
 Stripe webhook signing secret (`whsec_…`)
 
@@ -44,7 +44,7 @@ Stripe webhook signing secret (`whsec_…`)
 
 > `optional` **throwOnInvalidSignature?**: `boolean`
 
-Defined in: [server/types.ts:65](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/server/types.ts#L65)
+Defined in: [server/types.ts:65](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/server/types.ts#L65)
 
 Whether to treat a signature verification failure as an error.
 
@@ -60,7 +60,7 @@ true
 
 > `optional` **tolerance?**: `number`
 
-Defined in: [server/types.ts:50](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/server/types.ts#L50)
+Defined in: [server/types.ts:50](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/server/types.ts#L50)
 
 Maximum allowed difference (seconds) between the signature timestamp and
 now. Set to `0` to disable the timestamp check.

@@ -10,8 +10,9 @@
 
 The package's main entrypoint. Exports `createStripeClient` / `StripeClient`
 (one service per Stripe domain — `customers`, `checkout`, `billingPortal`,
-`subscriptions`, `prices`, `products`, `invoices`, `paymentLinks`, `payments`,
-`refunds`, `oauth`; `forAccount(id)` scopes a client to a Connect account), the
+`subscriptions`, `prices`, `products`, `invoices`, `paymentLinks`, `paymentMethods`,
+`setupIntents`, `payments`, `refunds`, `oauth`; `forAccount(id)` scopes a client
+to a Connect account), the
 normalized error hierarchy (`StripeError` + `parseStripeError`), and money /
 idempotency utilities (`toMinor`, `fromMinor`, `formatMoney`,
 `createIdempotencyKey`). Webhook helpers live in the
@@ -34,10 +35,12 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 - [InvoicesService](classes/InvoicesService.md)
 - [OAuthService](classes/OAuthService.md)
 - [PaymentLinksService](classes/PaymentLinksService.md)
+- [PaymentMethodsService](classes/PaymentMethodsService.md)
 - [PaymentsService](classes/PaymentsService.md)
 - [PricesService](classes/PricesService.md)
 - [ProductsService](classes/ProductsService.md)
 - [RefundsService](classes/RefundsService.md)
+- [SetupIntentsService](classes/SetupIntentsService.md)
 - [StripeApiError](classes/StripeApiError.md)
 - [StripeAuthError](classes/StripeAuthError.md)
 - [StripeClient](classes/StripeClient.md)
@@ -61,16 +64,19 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 - [CreatePriceOptions](interfaces/CreatePriceOptions.md)
 - [CreateProductOptions](interfaces/CreateProductOptions.md)
 - [CreateRefundOptions](interfaces/CreateRefundOptions.md)
+- [CreateSetupIntentOptions](interfaces/CreateSetupIntentOptions.md)
 - [CustomerAddress](interfaces/CustomerAddress.md)
 - [DeauthorizeOptions](interfaces/DeauthorizeOptions.md)
 - [ListCheckoutSessionsOptions](interfaces/ListCheckoutSessionsOptions.md)
 - [ListCustomersOptions](interfaces/ListCustomersOptions.md)
 - [ListInvoicesOptions](interfaces/ListInvoicesOptions.md)
 - [ListLineItemsOptions](interfaces/ListLineItemsOptions.md)
+- [ListPaymentMethodsOptions](interfaces/ListPaymentMethodsOptions.md)
 - [ListPaymentsOptions](interfaces/ListPaymentsOptions.md)
 - [ListPricesOptions](interfaces/ListPricesOptions.md)
 - [ListProductsOptions](interfaces/ListProductsOptions.md)
 - [ListRefundsOptions](interfaces/ListRefundsOptions.md)
+- [ListSetupIntentsOptions](interfaces/ListSetupIntentsOptions.md)
 - [ListSubscriptionsOptions](interfaces/ListSubscriptionsOptions.md)
 - [Money](interfaces/Money.md)
 - [MoneyInput](interfaces/MoneyInput.md)
@@ -100,10 +106,12 @@ const customer = await stripe.customers.create({ email: 'jane@example.com' });
 - [LineItem](type-aliases/LineItem.md)
 - [Payment](type-aliases/Payment.md)
 - [PaymentLink](type-aliases/PaymentLink.md)
+- [PaymentMethod](type-aliases/PaymentMethod.md)
 - [Price](type-aliases/Price.md)
 - [Product](type-aliases/Product.md)
 - [Refund](type-aliases/Refund.md)
 - [RefundReason](type-aliases/RefundReason.md)
+- [SetupIntent](type-aliases/SetupIntent.md)
 - [StripeEnvironment](type-aliases/StripeEnvironment.md)
 - [StripeErrorCode](type-aliases/StripeErrorCode.md)
 - [Subscription](type-aliases/Subscription.md)

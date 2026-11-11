@@ -6,7 +6,7 @@
 
 # Interface: ListPaymentsOptions
 
-Defined in: [core/services/payments.service.ts:14](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/payments.service.ts#L14)
+Defined in: [core/services/payments.service.ts:14](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/payments.service.ts#L14)
 
 Options for listing payments
 
@@ -16,7 +16,7 @@ Options for listing payments
 
 > `optional` **customerId?**: `string`
 
-Defined in: [core/services/payments.service.ts:17](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/payments.service.ts#L17)
+Defined in: [core/services/payments.service.ts:17](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/payments.service.ts#L17)
 
 Only return payments for this customer
 
@@ -26,7 +26,7 @@ Only return payments for this customer
 
 > `optional` **limit?**: `number`
 
-Defined in: [core/services/payments.service.ts:15](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/payments.service.ts#L15)
+Defined in: [core/services/payments.service.ts:15](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/payments.service.ts#L15)
 
 ***
 
@@ -34,6 +34,6 @@ Defined in: [core/services/payments.service.ts:15](https://github.com/Bates-Solu
 
 > `optional` **startingAfter?**: `string`
 
-Defined in: [core/services/payments.service.ts:19](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/payments.service.ts#L19)
+Defined in: [core/services/payments.service.ts:19](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/payments.service.ts#L19)
 
 Cursor: return records after this PaymentIntent ID

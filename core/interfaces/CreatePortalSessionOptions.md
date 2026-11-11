@@ -6,7 +6,7 @@
 
 # Interface: CreatePortalSessionOptions
 
-Defined in: [core/services/billing-portal.service.ts:13](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/billing-portal.service.ts#L13)
+Defined in: [core/services/billing-portal.service.ts:13](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/billing-portal.service.ts#L13)
 
 Options for creating a Billing Portal session
 
@@ -16,7 +16,7 @@ Options for creating a Billing Portal session
 
 > `optional` **configuration?**: `string`
 
-Defined in: [core/services/billing-portal.service.ts:19](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/billing-portal.service.ts#L19)
+Defined in: [core/services/billing-portal.service.ts:19](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/billing-portal.service.ts#L19)
 
 A specific portal configuration ID to use
 
@@ -26,7 +26,7 @@ A specific portal configuration ID to use
 
 > **customerId**: `string`
 
-Defined in: [core/services/billing-portal.service.ts:15](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/billing-portal.service.ts#L15)
+Defined in: [core/services/billing-portal.service.ts:15](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/billing-portal.service.ts#L15)
 
 Customer to open the portal for
 
@@ -36,7 +36,7 @@ Customer to open the portal for
 
 > `optional` **idempotencyKey?**: `string`
 
-Defined in: [core/services/billing-portal.service.ts:21](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/billing-portal.service.ts#L21)
+Defined in: [core/services/billing-portal.service.ts:21](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/billing-portal.service.ts#L21)
 
 Idempotency key (defaults to a generated UUID)
 
@@ -46,6 +46,6 @@ Idempotency key (defaults to a generated UUID)
 
 > `optional` **returnUrl?**: `string`
 
-Defined in: [core/services/billing-portal.service.ts:17](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/billing-portal.service.ts#L17)
+Defined in: [core/services/billing-portal.service.ts:17](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/billing-portal.service.ts#L17)
 
 URL to return to after leaving the portal

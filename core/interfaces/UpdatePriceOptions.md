@@ -6,7 +6,7 @@
 
 # Interface: UpdatePriceOptions
 
-Defined in: [core/services/prices.service.ts:78](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L78)
+Defined in: [core/services/prices.service.ts:78](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/prices.service.ts#L78)
 
 Options for updating a price. A price's amount, currency and interval are
 immutable; to change them use [PricesService.replace](../classes/PricesService.md#replace).
@@ -17,7 +17,7 @@ immutable; to change them use [PricesService.replace](../classes/PricesService.m
 
 > `optional` **active?**: `boolean`
 
-Defined in: [core/services/prices.service.ts:80](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L80)
+Defined in: [core/services/prices.service.ts:80](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/prices.service.ts#L80)
 
 Deactivate (`false`) or reactivate (`true`) the price
 
@@ -27,7 +27,7 @@ Deactivate (`false`) or reactivate (`true`) the price
 
 > `optional` **idempotencyKey?**: `string`
 
-Defined in: [core/services/prices.service.ts:90](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L90)
+Defined in: [core/services/prices.service.ts:90](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/prices.service.ts#L90)
 
 Idempotency key (defaults to a generated UUID)
 
@@ -37,7 +37,7 @@ Idempotency key (defaults to a generated UUID)
 
 > `optional` **lookupKey?**: `string`
 
-Defined in: [core/services/prices.service.ts:84](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L84)
+Defined in: [core/services/prices.service.ts:84](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/prices.service.ts#L84)
 
 Your own stable key for looking the price up
 
@@ -47,7 +47,7 @@ Your own stable key for looking the price up
 
 > `optional` **metadata?**: `Record`\<`string`, `string`\>
 
-Defined in: [core/services/prices.service.ts:88](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L88)
+Defined in: [core/services/prices.service.ts:88](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/prices.service.ts#L88)
 
 Metadata to merge into the existing metadata. Set a key to `''` to remove it.
 
@@ -57,7 +57,7 @@ Metadata to merge into the existing metadata. Set a key to `''` to remove it.
 
 > `optional` **nickname?**: `string`
 
-Defined in: [core/services/prices.service.ts:82](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L82)
+Defined in: [core/services/prices.service.ts:82](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/prices.service.ts#L82)
 
 Internal label
 
@@ -67,6 +67,6 @@ Internal label
 
 > `optional` **transferLookupKey?**: `boolean`
 
-Defined in: [core/services/prices.service.ts:86](https://github.com/Bates-Solutions/stripe/blob/3fa5db4b3d85da4031c1d76f0641e98a7929d5c3/src/core/services/prices.service.ts#L86)
+Defined in: [core/services/prices.service.ts:86](https://github.com/Bates-Solutions/stripe/blob/fa8bcb341ddb431baa1770084df3a0ac3fee6fff/src/core/services/prices.service.ts#L86)
 
 Move `lookupKey` from the price that currently holds it to this one
